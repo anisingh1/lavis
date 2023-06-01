@@ -24,7 +24,7 @@ from tqdm import tqdm
 MAX_INT = registry.get("MAX_INT")
 
 
-#def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform"):
+def load_video(video_path, n_frms=MAX_INT, height=-1, width=-1, sampling="uniform"):
 #    vr = VideoReader(uri=video_path, height=height, width=width)
 
 #    vlen = len(vr)
@@ -45,6 +45,7 @@ MAX_INT = registry.get("MAX_INT")
 #    frms = vr.get_batch(indices).permute(3, 0, 1, 2).float()  # (C, T, H, W)
 
 #    return frms
+    return None
 
 
 def apply_to_sample(f, sample):
