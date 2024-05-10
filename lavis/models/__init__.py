@@ -31,25 +31,11 @@ from lavis.models.blip_models.blip_pretrain import BlipPretrain
 from lavis.models.blip_models.blip_retrieval import BlipRetrieval
 from lavis.models.blip_models.blip_vqa import BlipVQA
 
-from lavis.models.blip2_models.blip2 import Blip2Base
-from lavis.models.blip2_models.blip2_opt import Blip2OPT
-from lavis.models.blip2_models.blip2_t5 import Blip2T5
-from lavis.models.blip2_models.blip2_qformer import Blip2Qformer
-from lavis.models.blip2_models.blip2_image_text_matching import Blip2ITM
-
-from lavis.models.blip2_models.blip2_t5_instruct import Blip2T5Instruct
-from lavis.models.blip2_models.blip2_vicuna_instruct import Blip2VicunaInstruct
-
-from lavis.models.blip_diffusion_models.blip_diffusion import BlipDiffusion
-
 from lavis.models.pnp_vqa_models.pnp_vqa import PNPVQA
 from lavis.models.pnp_vqa_models.pnp_unifiedqav2_fid import PNPUnifiedQAv2FiD
-from lavis.models.img2prompt_models.img2prompt_vqa import Img2PromptVQA
 from lavis.models.med import XBertLMHeadDecoder
 from lavis.models.vit import VisionTransformerEncoder
 from lavis.models.clip_models.model import CLIP
-
-from lavis.models.gpt_models.gpt_dialogue import GPTDialogue
 
 from lavis.processors.base_processor import BaseProcessor
 
@@ -69,26 +55,16 @@ __all__ = [
     "BlipFeatureExtractor",
     "BlipCaption",
     "BlipClassification",
-    "BlipDiffusion",
     "BlipITM",
     "BlipNLVR",
     "BlipPretrain",
     "BlipRetrieval",
     "BlipVQA",
-    "Blip2Qformer",
-    "Blip2Base",
-    "Blip2ITM",
-    "Blip2OPT",
-    "Blip2T5",
-    "Blip2T5Instruct",
-    "Blip2VicunaInstruct",
     "PNPVQA",
-    "Img2PromptVQA",
     "PNPUnifiedQAv2FiD",
     "CLIP",
     "VisionTransformerEncoder",
     "XBertLMHeadDecoder",
-    "GPTDialogue",
 ]
 
 
